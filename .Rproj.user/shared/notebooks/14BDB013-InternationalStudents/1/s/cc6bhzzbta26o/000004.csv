@@ -1,0 +1,17 @@
+"0","colnames(CountriesComparisionTable)<-c(""iso_a3"",""English"",""åœ‹åˆ¥"")"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","people_out<-merge(CountriesComparisionTable,people_out,by=""åœ‹åˆ¥"")"
+"2","column names ¡¥iso_a3.x¡¦, ¡¥English.x¡¦, ¡¥iso_a3.y¡¦, ¡¥English.y¡¦ are duplicated in the result"
+"0","data(country.map)"
+"0","final.plot3<-merge(people_out,"
+"0","                   country.map,by=""iso_a3"",all.x=T)%>%"
+"0","  group_by(group)%>%"
+"0","  arrange(order)"
+"2","Error in fix.by(by.x, x) : 'by' must specify a uniquely valid column
+"

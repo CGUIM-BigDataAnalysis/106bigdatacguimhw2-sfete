@@ -1,0 +1,154 @@
+"0","library(readr)"
+"0","library(dplyr)"
+"0","abcCT103<-read_csv(""http://stats.moe.gov.tw/files/detail/103/103_ab103_C.csv"",skip = 0)"
+"2","Parsed with column specification:
+cols(
+  洲別 = col_character(),
+  國別 = col_character(),
+  `學位生-正式修讀學位外國生` = col_integer(),
+  `學位生-僑生(含港澳)` = col_integer(),
+  `學位生-正式修讀學位陸生` = col_integer(),
+  `非學位生-外國交換生` = col_integer(),
+  `非學位生-外國短期研習及個人選讀` = col_integer(),
+  `非學位生-大專附設華語文中心學生` = col_integer(),
+  `非學位生-大陸研修生` = col_integer(),
+  `非學位生-海青班` = col_integer(),
+  境外專班 = col_integer()
+)
+"
+"0","abcCT104<-read_csv(""http://stats.moe.gov.tw/files/detail/104/104_ab104_C.csv"",skip = 0)"
+"2","Parsed with column specification:
+cols(
+  洲別 = col_character(),
+  國別 = col_character(),
+  `學位生-正式修讀學位外國生` = col_integer(),
+  `學位生-僑生(含港澳)` = col_integer(),
+  `學位生-正式修讀學位陸生` = col_integer(),
+  `非學位生-外國交換生` = col_integer(),
+  `非學位生-外國短期研習及個人選讀` = col_integer(),
+  `非學位生-大專附設華語文中心學生` = col_integer(),
+  `非學位生-大陸研修生` = col_integer(),
+  `非學位生-海青班` = col_integer(),
+  境外專班 = col_integer()
+)
+"
+"0","abcCT105<-read_csv(""http://stats.moe.gov.tw/files/detail/105/105_ab105_C.csv"",skip = 0)"
+"2","Parsed with column specification:
+cols(
+  洲別 = col_character(),
+  國別 = col_character(),
+  學位生_正式修讀學位外國生 = col_integer(),
+  `學位生_僑生(含港澳)` = col_integer(),
+  學位生_正式修讀學位陸生 = col_integer(),
+  非學位生_外國交換生 = col_integer(),
+  非學位生_外國短期研習及個人選讀 = col_integer(),
+  非學位生_大專附設華語文中心學生 = col_integer(),
+  非學位生_大陸研修生 = col_integer(),
+  非學位生_海青班 = col_integer(),
+  境外專班 = col_integer()
+)
+"
+"0","abcCT106<-read_csv(""http://stats.moe.gov.tw/files/detail/106/106_ab105_C.csv"",skip = 0)"
+"2","Parsed with column specification:
+cols(
+  洲別 = col_character(),
+  國別 = col_character(),
+  學位生_正式修讀學位外國生 = col_integer(),
+  `學位生_僑生(含港澳)` = col_integer(),
+  學位生_正式修讀學位陸生 = col_integer(),
+  非學位生_外國交換生 = col_integer(),
+  非學位生_外國短期研習及個人選讀 = col_integer(),
+  非學位生_大專附設華語文中心學生 = col_integer(),
+  非學位生_大陸研修生 = col_integer(),
+  非學位生_海青班 = col_integer(),
+  境外專班 = col_integer()
+)
+"
+"0","abcCT103$Total103<-rowSums(abcCT103[3:11])"
+"0","abcCT104$Total104<-rowSums(abcCT104[3:11])"
+"0","abcCT105$Total105<-rowSums(abcCT105[3:11])"
+"0","abcCT106$Total106<-rowSums(abcCT106[3:11])"
+"0","abcCT103<-abcCT103[,c(2,12)]"
+"0","abcCT104<-abcCT104[,c(2,12)]"
+"0","abcCT105<-abcCT105[,c(2,12)]"
+"0","abcCT106<-abcCT106[,c(2,12)]"
+"0","abcSCH103<-read_csv(""http://stats.moe.gov.tw/files/detail/103/103_ab103_S.csv"",skip = 0)"
+"2","Parsed with column specification:
+cols(
+  學校類型 = col_character(),
+  學校代碼 = col_character(),
+  學校名稱 = col_character(),
+  `學位生-正式修讀學位外國生` = col_integer(),
+  `學位生-僑生(含港澳)` = col_integer(),
+  `學位生-正式修讀學位陸生` = col_integer(),
+  `非學位生-外國交換生` = col_integer(),
+  `非學位生-外國短期研習及個人選讀` = col_integer(),
+  `非學位生-大專附設華語文中心學生` = col_integer(),
+  `非學位生-大陸研修生` = col_character(),
+  `非學位生-海青班` = col_integer(),
+  境外專班 = col_integer()
+)
+"
+"0","abcSCH104<-read_csv(""http://stats.moe.gov.tw/files/detail/104/104_ab104_S.csv"",skip = 0)"
+"2","Parsed with column specification:
+cols(
+  學校類型 = col_character(),
+  學校代碼 = col_character(),
+  學校名稱 = col_character(),
+  `學位生-正式修讀學位外國生` = col_integer(),
+  `學位生-僑生(含港澳)` = col_integer(),
+  `學位生-正式修讀學位陸生` = col_integer(),
+  `非學位生-外國交換生` = col_integer(),
+  `非學位生-外國短期研習及個人選讀` = col_integer(),
+  `非學位生-大專附設華語文中心學生` = col_integer(),
+  `非學位生-大陸研修生` = col_character(),
+  `非學位生-海青班` = col_integer(),
+  境外專班 = col_integer()
+)
+"
+"0","abcSCH105<-read_csv(""http://stats.moe.gov.tw/files/detail/105/105_ab105_S.csv"",skip = 0)"
+"2","Parsed with column specification:
+cols(
+  學校類型 = col_character(),
+  學校代碼 = col_character(),
+  學校名稱 = col_character(),
+  學位生_正式修讀學位外國生 = col_integer(),
+  `學位生_僑生(含港澳)` = col_integer(),
+  學位生_正式修讀學位陸生 = col_integer(),
+  非學位生_外國交換生 = col_integer(),
+  非學位生_外國短期研習及個人選讀 = col_integer(),
+  非學位生_大專附設華語文中心學生 = col_integer(),
+  非學位生_大陸研修生 = col_integer(),
+  非學位生_海青班 = col_integer(),
+  境外專班 = col_integer()
+)
+"
+"0","abcSCH106<-read_csv(""http://stats.moe.gov.tw/files/detail/106/106_ab105_S.csv"",skip = 0)"
+"2","Parsed with column specification:
+cols(
+  學校類型 = col_character(),
+  學校代碼 = col_character(),
+  學校名稱 = col_character(),
+  學位生_正式修讀學位外國生 = col_integer(),
+  `學位生_僑生(含港澳)` = col_integer(),
+  學位生_正式修讀學位陸生 = col_integer(),
+  非學位生_外國交換生 = col_integer(),
+  非學位生_外國短期研習及個人選讀 = col_integer(),
+  非學位生_大專附設華語文中心學生 = col_integer(),
+  非學位生_大陸研修生 = col_integer(),
+  非學位生_海青班 = col_integer(),
+  境外專班 = col_integer()
+)
+"
+"0","abcSCH103<-abcSCH103[-10]"
+"0","abcSCH104<-abcSCH104[-10]"
+"0","abcSCH105<-abcSCH105[-10]"
+"0","abcSCH106<-abcSCH106[-10]"
+"0","abcSCH103$Total103<-rowSums(abcSCH103[4:11])"
+"0","abcSCH104$Total104<-rowSums(abcSCH104[4:11])"
+"0","abcSCH105$Total105<-rowSums(abcSCH105[4:11])"
+"0","abcSCH106$Total106<-rowSums(abcSCH106[4:11])"
+"0","abcSCH103<-abcSCH103[,c(3,12)]"
+"0","abcSCH104<-abcSCH104[,c(3,12)]"
+"0","abcSCH105<-abcSCH105[,c(3,12)]"
+"0","abcSCH106<-abcSCH106[,c(3,12)]"

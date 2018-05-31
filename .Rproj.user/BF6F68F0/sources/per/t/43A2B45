@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1527699056221.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "43A2B45",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1527699056221,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7EF6B33D",
+        "caption" : "Student_RPT_07",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Student_RPT_07&cache_key=7EF6B33D",
+        "displayedObservations" : 35029,
+        "environment" : "",
+        "object" : "Student_RPT_07",
+        "preview" : 0,
+        "totalObservations" : 35029,
+        "variables" : 5
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

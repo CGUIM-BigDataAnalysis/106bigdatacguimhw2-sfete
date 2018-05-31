@@ -1,0 +1,13 @@
+"0","people_out<-read_csv(""https://ws.moe.edu.tw/Download.ashx?u=C099358C81D4876CC7586B178A6BD6D5062C39FB76BDE7EC7685C1A3C0846BCDD2B4F4C2FE907C3E7E96F97D24487065577A728C59D4D9A4ECDFF432EA5A114C8B01E4AFECC637696DE4DAECA03BB417&n=4E402A02CE6F0B6C1B3C7E89FDA1FAD0B5DDFA6F3DA74E2DA06AE927F09433CFBC07A1910C169A1845D8EB78BD7D60D7414F74617F2A6B71DC86D17C9DA3781394EF5794EEA7363C&icon=..csv"")"
+"2","Missing column names filled in: 'X4' [4], 'X5' [5], 'X6' [6]"
+"2","Parsed with column specification:
+cols(
+  洲別 = col_character(),
+  國別 = col_character(),
+  總人數 = col_number(),
+  X4 = col_character(),
+  X5 = col_character(),
+  X6 = col_character()
+)
+"
+"0","people_out<-people_out[,1:3]"

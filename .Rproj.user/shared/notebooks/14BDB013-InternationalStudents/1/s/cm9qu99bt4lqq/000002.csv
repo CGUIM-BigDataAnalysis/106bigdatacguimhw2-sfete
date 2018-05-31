@@ -1,0 +1,2 @@
+"0","STtop10go<-head(how_many_peopleCT[order(how_many_peopleCT$TotalPeople,decreasing = T),],10)"
+"0","STtop10go"

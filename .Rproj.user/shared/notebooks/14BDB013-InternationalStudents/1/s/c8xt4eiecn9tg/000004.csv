@@ -1,0 +1,16 @@
+"0","colnames(CountriesComparisionTable)<-c(""iso_a3"",""English"",""對方學校國別"")"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","how_many_peopleCT<-merge(CountriesComparisionTable,how_many_peopleCT,by=""對方學校國別"")"
+"0","data(country.map)"
+"0","final.plot2<-merge(how_many_peopleCT,"
+"0","                   country.map,by=""iso_a3"",all.x=T)%>%"
+"0","  group_by(group)%>%"
+"0","  arrange(order)"
+"2","Error in fix.by(by.x, x) : 'by' must specify a uniquely valid column
+"

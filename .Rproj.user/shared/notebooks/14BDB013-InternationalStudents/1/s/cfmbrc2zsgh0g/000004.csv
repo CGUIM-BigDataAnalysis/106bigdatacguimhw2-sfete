@@ -1,0 +1,26 @@
+"0","#ш╝ЙхЕеф╛ЖхП░х┐╡цЫ╕хдЦхЬЛф║║ш│ЗцЦЩ(SCHф╗гшбиSchool)
+abcSCH103<-read_csv(""http://stats.moe.gov.tw/files/detail/103/103_ab103_S.csv"",skip = 0)
+"
+"2","Parsed with column specification:
+cols(
+  ╛╟о╒├■лм = col_character(),
+  ╛╟о╒еN╜X = col_character(),
+  ╛╟о╒жW║┘ = col_character(),
+  `╛╟жье═-е┐жбн╫┼к╛╟жье~░ъе═` = col_integer(),
+  `╛╟жье═-╣┤е═(зt┤ф┐D)` = col_integer(),
+  `╛╟жье═-е┐жбн╫┼к╛╟жь│░е═` = col_integer(),
+  `лD╛╟жье═-е~░ъец┤ле═` = col_integer(),
+  `лD╛╟жье═-е~░ъ╡u┤┴му▓▀д╬н╙дH┐я┼к` = col_integer(),
+  `лD╛╟жье═-дj▒Mк■│]╡╪╗yдхддд▀╛╟е═` = col_integer(),
+  `лD╛╟жье═-дj│░мун╫е═` = col_character(),
+  `лD╛╟жье═-о№лCпZ` = col_integer(),
+  ╣╥е~▒MпZ = col_integer()
+)
+"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
